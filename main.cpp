@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
+#include "pointer_arrays.h"
 using namespace std;
 int main() {
-    cout << "Hello world" << endl;
-
+    pointer_arrays();
     return 0;
 }
