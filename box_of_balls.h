@@ -46,6 +46,11 @@ public:
 
 };
 
+struct ball {
+    int diameter;
+    int volume;
+};
+
 void box_of_balls() {
     cout << "How many balls are in your box? ";
     int balls;
