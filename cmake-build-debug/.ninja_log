@@ -1,9 +1,6 @@
 # ninja log v5
-540	713	1700594940680670535	C___Learning	8d352cd2b5ecdd73
-1	540	1700594940508675212	CMakeFiles/C___Learning.dir/main.cpp.o	ab412ccaaad0f9af
-2	531	1700595738934665466	CMakeFiles/C___Learning.dir/main.cpp.o	ab412ccaaad0f9af
-532	690	1700595739090664125	C___Learning	8d352cd2b5ecdd73
-1	732	1700766243748561988	CMakeFiles/C___Learning.dir/main.cpp.o	ab412ccaaad0f9af
-732	859	1700766243872559515	C___Learning	8d352cd2b5ecdd73
-3	674	1700766326206876798	CMakeFiles/C___Learning.dir/main.cpp.o	ab412ccaaad0f9af
-674	803	1700766326330874216	C___Learning	8d352cd2b5ecdd73
+0	33	1700815934220642519	build.ninja	1f9dc604fd45dab
+701	822	1700767168369717190	C___Learning	8d352cd2b5ecdd73
+1	701	1700767168249719496	CMakeFiles/C___Learning.dir/main.cpp.o	ab412ccaaad0f9af
+3	809	1700817109286958304	CMakeFiles/C___Learning.dir/main.cpp.o	ab412ccaaad0f9af
+809	960	1700817109438954546	C___Learning	8d352cd2b5ecdd73

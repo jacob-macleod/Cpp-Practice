@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
 #include "pointer_arrays.h"
+#include "box_of_balls.h"
 using namespace std;
 int main() {
-    pointer_arrays();
+    box_of_balls();
     return 0;
 }

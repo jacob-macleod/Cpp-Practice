@@ -24,6 +24,10 @@ void pointer_arrays () {
     unique_ptr<int[]> negativeArray = make_unique<int[]>(size / 2);
     int negIndex = 0;
 
+    shared_ptr<int> a = make_shared<int>();
+    *a = 7;
+
+
     for (int i = 0; i < size; i++) {
         numArray[i] = i;
         cout << "numArray[" << i << "] is " << i << endl;
