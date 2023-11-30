@@ -109,6 +109,7 @@ and store them in a 20-character array. Then it should call the grade function t
 exam and should display the string the function returns. The program should loop to allow
 additional tests to be entered and graded until the user indicates a desire to quit.
 
+
 Create a class that simulates and manages a soft drink machine. Information on each
 drink type should be stored in a structure that has data members to hold the drink
 name, the drink price, and the number of drinks of that type currently in the machine.
