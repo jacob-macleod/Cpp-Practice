@@ -5,12 +5,10 @@
 using namespace std;
 
 template <class T>
-string linear_search(T* arr, T item_to_find) {
-	int index = 0;
-	for (T item : arr) {
-		if (item == item_to_find)
+string linear_search(T arr[], int size, T item_to_find) {
+	for (int index = 0; index < size; index++) {
+		if (*(arr+index) == item_to_find)
 			return "Item found at index " + to_string(index);
-		index++;
 	}
 	return "Item not found";
 }

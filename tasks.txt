@@ -1,27 +1,27 @@
 Write a binary search algorithm --> DONE
-Write a linear search algorithm
-Write a bubble sort algorithm
-Write a selection sort algorithm
-
-
-This is an advanced question. Do not worry if you have problems solving it. However, you are certainly welcome to have a go at it!
+Write a linear search algorithm --> DONE
+Write a bubble sort algorithm --> DONE
+Write a selection sort algorithm --> DONE
 
 Write a program that creates and displays a report of 12 Little League baseball players and their batting averages, listed in order of batting average from
 highest to lowest. The program should use an array of structures or class objects to store the data, where each structure or object holds the name of a player
 and their batting average. Make the program modular by having main call on different functions to input the data, sort the data, perform swaps, and display the report.
-
+DONE
 
 Write a program that uses two identical arrays of ten unordered strings. It should display the contents of the first array; then call a function to sort it using a
 descending order bubble sort, modified to print out the array contents after each pass of the sort. Next the program should display the contents of the second array;
 then call a function to sort it using a descending order selection sort, modified to print out the array contents after each pass of the sort.
+DONE
 
 Write a program that accepts as input a sentence in which all of the words are run together, but the first character of each word is uppercase. Convert the sentence
 to a string in which the words are separated by spaces and only the first word starts with an uppercase letter. For example the string "StopAndSmellTheRoses." would
 be converted to "Stop and smell the roses."
+DONE
 
 In a program you need to store the names and populations of 12 countries. Create
 an appropriate array to store this information and then write the code needed to
 read the information into the array from a file named pop.dat.
+DONE
 
 A weather analysis program uses the following array to store the temperature for
 each hour of the day on each day of a week.
@@ -30,12 +30,14 @@ Each row represents a day (0 = Sunday, 1 = Monday, etc.) and each column
 represents a time (0 = midnight, 1 = 1 a.m., … , 12 = noon, 13 = 1 p.m., etc.).
 A) Write code to find Tuesday’s average temperature.
 B) Write code to find the average weekly noon temperature.
+DONE
 
 Two arrays are said to be identical if they have same value in the same index for all
 indices of the arrays. Create a program with a function that accepts two one-dimensional
 arrays and their sizes as arguments. The function should return 1 if the two arrays are
 identical, otherwise it should return 0. The main should ask the user to input the size of
 the arrays and their values. It should then display whether they are identical or not.
+DONE
 
 An amateur meteorologist wants to keep track of weather conditions during the past
 year’s three-month summer season and has designated each day as either rainy (‘R’),
@@ -51,6 +53,7 @@ month to examine, and the character to look for (‘R’, ‘C’, or ‘S’). 
 should return the number of days the indicated month had the requested weather.
 Data for the program can be found in the RainOrShine.dat file located in the
 Chapter 8 programs folder on this book’s companion website.
+DONE
 
 An M * N matrix is a two-dimensional array with M rows and N columns. Write a
 modular program that manipulates two matrices A and B, each of the same size. The
