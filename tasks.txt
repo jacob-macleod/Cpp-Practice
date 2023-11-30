@@ -1,0 +1,141 @@
+Write a binary search algorithm
+Write a linear search algorithm
+Write a bubble sort algorithm
+Write a selection sort algorithm
+
+
+This is an advanced question. Do not worry if you have problems solving it. However, you are certainly welcome to have a go at it!
+
+Write a program that creates and displays a report of 12 Little League baseball players and their batting averages, listed in order of batting average from
+highest to lowest. The program should use an array of structures or class objects to store the data, where each structure or object holds the name of a player
+and their batting average. Make the program modular by having main call on different functions to input the data, sort the data, perform swaps, and display the report.
+
+
+Write a program that uses two identical arrays of ten unordered strings. It should display the contents of the first array; then call a function to sort it using a
+descending order bubble sort, modified to print out the array contents after each pass of the sort. Next the program should display the contents of the second array;
+then call a function to sort it using a descending order selection sort, modified to print out the array contents after each pass of the sort.
+
+Write a program that accepts as input a sentence in which all of the words are run together, but the first character of each word is uppercase. Convert the sentence
+to a string in which the words are separated by spaces and only the first word starts with an uppercase letter. For example the string "StopAndSmellTheRoses." would
+be converted to "Stop and smell the roses."
+
+In a program you need to store the names and populations of 12 countries. Create
+an appropriate array to store this information and then write the code needed to
+read the information into the array from a file named pop.dat.
+
+A weather analysis program uses the following array to store the temperature for
+each hour of the day on each day of a week.
+int temp[7][24];
+Each row represents a day (0 = Sunday, 1 = Monday, etc.) and each column
+represents a time (0 = midnight, 1 = 1 a.m., … , 12 = noon, 13 = 1 p.m., etc.).
+A) Write code to find Tuesday’s average temperature.
+B) Write code to find the average weekly noon temperature.
+
+Two arrays are said to be identical if they have same value in the same index for all
+indices of the arrays. Create a program with a function that accepts two one-dimensional
+arrays and their sizes as arguments. The function should return 1 if the two arrays are
+identical, otherwise it should return 0. The main should ask the user to input the size of
+the arrays and their values. It should then display whether they are identical or not.
+
+An amateur meteorologist wants to keep track of weather conditions during the past
+year’s three-month summer season and has designated each day as either rainy (‘R’),
+cloudy (‘C’), or sunny (‘S’). Write a modular program that stores this information in
+a 3 × 30 array of characters, where the row indicates the month (0 = June, 1 = July,
+2 = August) and the column indicates the day of the month. Note that data is not
+being collected for the 31st of any month. The program should begin by calling a
+function to read the weather data in from a file. Then it should create a report that
+displays for each month and for the whole three-month period, how many days were
+rainy, how many were cloudy, and how many were sunny. To help it do this, it
+should use a value-returning function that is passed the array, the number of the
+month to examine, and the character to look for (‘R’, ‘C’, or ‘S’). This function
+should return the number of days the indicated month had the requested weather.
+Data for the program can be found in the RainOrShine.dat file located in the
+Chapter 8 programs folder on this book’s companion website.
+
+An M * N matrix is a two-dimensional array with M rows and N columns. Write a
+modular program that manipulates two matrices A and B, each of the same size. The
+program should ask the user to enter values for M and N, and, using nested for loops,
+populate both matrices with random numbers between 1 and 10. The program should
+then use separate functions to perform the following operations:
+• Display each matrix.
+• Transpose the first matrix, by changing the columns into rows and the rows into
+columns, and display it.
+• Display the sum matrix of the two matrices, where each element in the sum
+matrix is the sum of the corresponding elements in the two matrices.
+Input Validation: M and N should have values of at least 2.
+
+The Lo Shu Magic Square is a grid with three rows and three columns that has the
+following properties:
+• The grid contains the numbers 1 through 9 exactly.
+• The sum of each row, each column, and each diagonal all add up to the same
+number. This is shown in Figure 8-18.
+15
+15
+15 15
+15 2 9 4
+15 6 1 8
+15 7 5 3
+15
+Figure 8-18
+Write a program that simulates a magic square using a two-dimensional 3 × 3 array. It
+should have a Boolean function isMagicSquare that accepts the array as an argument
+and returns true if it determines it is a Lo Shu Magic Square and false if it is not. Test
+the program with one array,
+
+
+The State Department of Motor Vehicles (DMV) has asked you to write a program
+that grades the written portion of the driver’s license exam, which has 20 multiple-
+choice questions. Here are the correct answers:
+1.B 5.C 9.C 13.D 17.C
+2.D 6.A 10.D 14.A 18.B
+3.A 7.B 11.B 15.D 19.D
+4.A 8.A 12.C 16.C 20.A
+To do this, you should create a TestGrader class. The class will have an answers array
+of 20 characters, which holds the correct test answers. It will have two public member
+functions that enable user programs to interact with the class: setKey and grade. The
+setKey function receives a 20-character string holding the correct answers and copies
+this information into its answers array. The grade function receives a 20-character
+array holding the test taker’s answers and compares each of their answers to the correct
+one. An applicant must correctly answer 15 or more of the 20 questions to pass the
+exam. After “grading” the exam, the grade function should create and return to the
+user a string that includes the following information:
+• A message indicating whether the applicant passed or failed the exam
+• The number of right answers and the number of wrong answers
+• A list of the question numbers for all incorrectly answered questions
+The client program that creates and uses a TestGrader object should first make a single call
+to setKey, passing it a string containing the 20 correct answers. Once this is done, it should
+allow atest taker’s 20answersto beentered, making sure only answersof A–D are accepted,
+and store them in a 20-character array. Then it should call the grade function to grade the
+exam and should display the string the function returns. The program should loop to allow
+additional tests to be entered and graded until the user indicates a desire to quit.
+
+Create a class that simulates and manages a soft drink machine. Information on each
+drink type should be stored in a structure that has data members to hold the drink
+name, the drink price, and the number of drinks of that type currently in the machine.
+The class should have an array of five of these structures, initialized with the following data.
+Drink Name Cost Number in Machine
+Cola 1.00 20
+Root beer 1.00 20
+Orange soda 1.00 20
+Grape soda 1.00 20
+Bottled water 1.50 20
+The class should have two public member functions, displayChoices (which displays
+a menu of drink names and prices) and buyDrink (which handles a sale). The class
+should also have at least two private member functions, inputMoney, which is called by
+buyDrink to accept, validate, and return (to buyDrink) the amount of money input,
+and dailyReport, which is called by the destructor to report how many of each drink
+type remain in the machine at the end of the day and how much money was collected.
+You may want to use additional functions to make the program more modular.
+The client program that uses the class should have a main processing loop that calls the
+displayChoices class member function and allows the patron to either pick a drink or
+quit the program. If the patron selects a drink, the buyDrink class member function is
+called to handle the actual sale. This function should be passed the patron’s drink
+choice. Here is what the buyDrink function should do:
+• Call the inputMoney function, passing it the patron’s drink choice.
+• If the patron no longer wishes to make the purchase, return all input money.
+• If the machine is out of the requested soda, display an appropriate “sold out”
+message and return all input money.
+• If the machine has the soda and enough money was entered, complete the sale by
+updating the quantity on hand and money collected information, calculating any
+change due to be returned to the patron, and delivering the soda. This last action
+can be simulated by printing an appropriate “here is your beverage” message.
