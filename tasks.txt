@@ -1,4 +1,4 @@
-Write a binary search algorithm
+Write a binary search algorithm --> DONE
 Write a linear search algorithm
 Write a bubble sort algorithm
 Write a selection sort algorithm

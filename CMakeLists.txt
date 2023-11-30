@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(C___Learning main.cpp
         pointer_arrays.h
         box_of_balls.h
-        pointer_sorting.h)
+        pointer_sorting.h "binary_search.h" "linear_search.h")
