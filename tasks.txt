@@ -66,6 +66,7 @@ columns, and display it.
 • Display the sum matrix of the two matrices, where each element in the sum
 matrix is the sum of the corresponding elements in the two matrices.
 Input Validation: M and N should have values of at least 2.
+DONE (But not sum matrix because I don't understand it - I don't know enough about matrixes)
 
 The Lo Shu Magic Square is a grid with three rows and three columns that has the
 following properties:
@@ -84,6 +85,7 @@ Write a program that simulates a magic square using a two-dimensional 3 × 3 arr
 should have a Boolean function isMagicSquare that accepts the array as an argument
 and returns true if it determines it is a Lo Shu Magic Square and false if it is not. Test
 the program with one array,
+DONE
 
 
 The State Department of Motor Vehicles (DMV) has asked you to write a program
@@ -111,7 +113,7 @@ allow atest taker’s 20answersto beentered, making sure only answersof A–D ar
 and store them in a 20-character array. Then it should call the grade function to grade the
 exam and should display the string the function returns. The program should loop to allow
 additional tests to be entered and graded until the user indicates a desire to quit.
-
+DONE
 
 Create a class that simulates and manages a soft drink machine. Information on each
 drink type should be stored in a structure that has data members to hold the drink
@@ -143,13 +145,16 @@ message and return all input money.
 updating the quantity on hand and money collected information, calculating any
 change due to be returned to the patron, and delivering the soda. This last action
 can be simulated by printing an appropriate “here is your beverage” message.
+DONE
 
 Write a function whose prototype is
 void exchange(int *p, int *q);
 that takes two pointers to integer variables and exchanges the values in those
 variables.
+DONE
 
 Write a function
 void switchEnds(int *array, int size);
 that is passed the address of the beginning of an array and the size of the array. The
 function swaps the values in the first and last entries of the array.
+DONE
