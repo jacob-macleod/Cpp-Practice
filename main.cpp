@@ -17,7 +17,9 @@
 #include "soduku.h"
 #include "dmv.h"
 #include "vending_machine.h"
-#include "switch_ends.h"
+#include "length.h"
+#include "dimensions.h"
+#include "palindrome.h"
 using namespace std;
 
 int main() {
@@ -27,8 +29,6 @@ int main() {
     //string* arr = new string[]{ "aHello", "cMy", "bName", "fIs", "hjacob", "gand", "zI", "aLike", "Coding" };
     //string* arr2 = new string[]{ "Hello", "My", "Name", "Is", "jacob", "and", "I", "Like", "Coding" };
     //int size = 9;
-    printArr(arr, 13);
-    switchEnds(arr, 13);
-    printArr(arr, 13);
+    length();
     return 0;
 }

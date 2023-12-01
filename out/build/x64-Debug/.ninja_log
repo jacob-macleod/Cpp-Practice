@@ -1,7 +1,13 @@
 # ninja log v5
-3	973	7231406886833595	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
-974	3439	7231406908097075	C___Learning.exe	f1dd73946731fb1c
-2	796	7231409649041247	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
-806	2574	7231409664647257	C___Learning.exe	f1dd73946731fb1c
-2	784	7231409810493261	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
-784	2022	7231409820560142	C___Learning.exe	f1dd73946731fb1c
+2	671	7231488781536691	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
+671	2189	7231488794736752	C___Learning.exe	f1dd73946731fb1c
+3	1166	7231497967285927	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
+1166	2359	7231497977154278	C___Learning.exe	f1dd73946731fb1c
+2	682	7231499373997245	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
+683	2216	7231499387183600	C___Learning.exe	f1dd73946731fb1c
+2	661	7231499488357789	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
+661	1798	7231499497630967	C___Learning.exe	f1dd73946731fb1c
+2	1169	7231506753491719	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
+1170	2757	7231506767109994	C___Learning.exe	f1dd73946731fb1c
+2	682	7231506984384226	CMakeFiles/C___Learning.dir/main.cpp.obj	6f011d3da99e9991
+690	1854	7231506993956760	C___Learning.exe	f1dd73946731fb1c

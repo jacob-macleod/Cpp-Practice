@@ -158,3 +158,38 @@ void switchEnds(int *array, int size);
 that is passed the address of the beginning of an array and the size of the array. The
 function swaps the values in the first and last entries of the array.
 DONE
+
+
+Design a Length class having two member variables: centimeters and millimeters.
+The class should have constructors and member functions to input and return member
+variables. It should also overload the operators ==, + and *.
+Design another class Rectangle that should comprise two Length objects, representing
+the two adjacent sides of a rectangle. The class should have the following member
+functions:
+setSides: This member function should ask the user to input the values of the sides of
+the rectangle and accordingly set the value of the lengths by calling the set function of
+the Length class.
+getSides: This member function should call the get function of the Length class to
+display the sides of the rectangle.
+isSquare: This function should return a Boolean value True if the rectangle is a square,
+that is, if. its sides are equal; otherwise it should return False.
+getArea : This should return the area of the rectangle, which is. the product of its two
+adjacent sides.
+getPerimeter: This should return the perimeter of the rectangle, which is. the sum of
+all its four sides.
+Demonstrate the classes in a program that creates a Rectangle object and calls all its
+member functions.
+DONE mostly, but I don't really understand the question
+
+A palindromic number is a positive integer that reads the same forward as backward.
+For example, the numbers 1, 11, and 121 are palindromic. Moreover, 1 and 11 are
+very special palindromic numbers: their squares are also palindromic. How many
+positive integers less than 10,000 have this property? Write a program to list all such
+numbers together with their squares.
+The beginning part of your output should look like this:
+1 has square 1
+2 has square 4
+3 has square 9
+11 has square 121
+22 has square 484
+DONE
